@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to, {{ site_name }}</title>
+    <style>
+      body {
+          background-color: rgb(25, 65, 94);
+          text-align: center; /* Center-align the text */
+      }
+
+      h1 {
+          display: inline-block; /* Make the text stay centered */
+          font-size: 30px;
+          color: #ffffff; /* Set the text color */
+          overflow: hidden; /* Ensures the text is initially hidden */
+          white-space: nowrap; /* Prevents the text from wrapping */
+          border-right: 2px solid #ffffff; /* Create a blinking cursor effect */
+          animation: typing 4s steps(40, end); /* Typewriter animation*/
+      }
+
+      /* Typewriter animation keyframes */
+      @keyframes typing {
+          from {
+              width: 0; /* Start with zero width */
+          }
+          to {
+              width: 100%; /* End with full width */
+          }
+      }
+    </style>
+  </head>
+  <body >
+    <h1>Welcome to, {{ site_name }}</h1>
+    <div style="width: 150px; height: 200px; background-color: #7a7a7a; margin: 5px auto;"></div>
+    </body>
+  </body>
+</html> 

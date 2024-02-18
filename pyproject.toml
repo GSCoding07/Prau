@@ -9,6 +9,7 @@ packages = [{include = "repl_nix_praudexai"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 flask = "^3.0.2"
+auth = "^0.5.3"
 
 
 [build-system]
