@@ -20,7 +20,7 @@ def Login_page():
 def Premium_page():
     return render_template('premium.html', site_name=site_name)
 
-@app.route('/home', methods=['GET'])
+@app.route('/Home', methods=['GET'])
 def Home_page():
     return render_template('home.html', site_name=site_name)
 
